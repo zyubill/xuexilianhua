@@ -1,0 +1,18 @@
+
+使用mongoose来做数据层，
+
+简单测试mongose
+
+moxin/zhiliao.js
+改动模型层
+
+改动模块
+mokai/zhangjie.js 这个文件应该不用到，都定义在模型层了，如果要处理也是与WEB的数据交互吧
+mokai/daolu.js  导入章节模块
+
+导入
+读取JSON文件数据
+处理格式，符合章节定义格式
+	答案的格式处理
+	编号
+存入章节

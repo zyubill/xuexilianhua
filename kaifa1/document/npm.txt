@@ -1,0 +1,6 @@
+
+npm install q
+
+
+npm install jugglingdb
+npm install jugglingdb-mongodb

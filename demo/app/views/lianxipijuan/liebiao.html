@@ -1,0 +1,19 @@
+{% extends '../layouts/default.html' %}
+
+{% block main %}
+  <h1>{{ title }}</h1>
+{% endblock %}
+
+{% block content %}
+  {% if (mxs.length) %}
+    {% for mx in mxs %}
+      {% include 'liebiao_mx.html' %}
+    {% endfor %}
+
+  {% else %}
+    <h4 class="muted">
+      No articles.&nbsp;
+      <a href="/articles/new">create one</a>
+    </h4>
+  {% endif %}
+{% endblock %}

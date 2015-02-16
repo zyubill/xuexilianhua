@@ -1,0 +1,20 @@
+yubill
+
+github zyubill / f6zx3000c
+
+Ssh-keygen -t rsa -C "yubill@163.com" 
+ssh -T git@github.com
+
+ git remote add yubill git@github.com:zyubill/test.git
+git push -u yubill master
+https://github.com/zyubill/test.git
+
+//github 上的用户名
+ git config --global github.user zyubill      
+ git config --global github.token d7f5437136dd78e22e71cb9451640b22a99729bd 
+
+
+ssh -T git@github.com
+
+ssh: \342\200\223T: no address associated with name  // -T拷贝下来不正确
+Permission denied (publickey).

@@ -1,0 +1,3 @@
+C:\development\project\xuexiliahua\demo\config;C:\development\project\xuexiliahua\demo/app/controllers
+
+C:\development\project\xuexiliahua\kaifa1\wangye\mokai\node-express-mongoose\config;C:\development\project\xuexiliahua\kaifa1\wangye\mokai\node-express-mongoose/app/controllers
